@@ -28,8 +28,8 @@ The repository provides a stable and publicly accessible location for thesis fig
 
 ## License and Attribution
 
-Images and other materials in this repository are provided to support the author’s thesis. 
+Images and other materials in this repository are provided to support the author’s thesis. Some files may be sourced from third parties and may therefore be subject to their original copyright and licensing terms.
 
-Users are responsible for verifying the applicable terms before reusing any material.
+Users are responsible for verifying the applicable terms before reusing any material. 
 
 The author makes no warranty regarding the licensing status of externally sourced material.
