@@ -1,0 +1,133 @@
+{
+  "run_id": "2026-07-18_flowedit-prompt-sweep-full-body_afb193b5",
+  "generated_at_utc": "2026-07-18T10:45:57.493005+00:00",
+  "notebook": "Notebooks/current/04_flowedit_prompt_sweep_full_body.ipynb",
+  "source_image": {
+    "file": "source_original.jpg",
+    "sha256": "53b504a160f2b23885dd2540c96529c2cb65cc36bc022d34f322e3ccfa40e142",
+    "dataset_split": "single_reference_image"
+  },
+  "method": {
+    "exp_name": "FlowEdit_Angry_Face",
+    "sampler_type": "FlowEditSD3",
+    "model_type": "SD3",
+    "model_id": "stabilityai/stable-diffusion-3.5-medium",
+    "model_revision": "b940f670f0eda2d07fbb75229e779da1ad11eb80",
+    "T_steps": 50,
+    "n_avg": 1,
+    "src_guidance_scale": 3.5,
+    "tar_guidance_scale": 13.5,
+    "n_min": 0,
+    "n_max": 33,
+    "seed": 42,
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  "metrics": {
+    "emotion_model_id": "trpakov/vit-face-expression",
+    "emotion_model_revision": "ef0bc6fc34241b6587e7e009e7711357be28c024",
+    "dino_model_id": "facebook/dinov2-small",
+    "dino_model_revision": "ed25f3a31f01632728cabb09d1542f84ab7b0056"
+  },
+  "runtime_seconds_total_batch": 49.066893215000164,
+  "status": "success",
+  "code_config_sha256": "afb193b5",
+  "images": [
+    {
+      "image_file": "asian.png",
+      "target_code": "asian",
+      "target_prompt": "a realistic portrait photo of an angry asian woman, natural skin texture, neutral background",
+      "source_prompt": "a realistic portrait photo of an angry woman, natural skin texture, neutral background",
+      "output_classifier_prediction": "fear",
+      "output_target_probability": 0.09744050353765488,
+      "dino_face_similarity": 0.5290634036064148,
+      "privacy_score": 0.9555430197580925,
+      "target_emotion_score": 0.012479630043213468,
+      "combined_score": 0.46266327329246487
+    },
+    {
+      "image_file": "caucasian.png",
+      "target_code": "caucasian",
+      "target_prompt": "a realistic portrait photo of an angry caucasian woman, natural skin texture, neutral background",
+      "source_prompt": "a realistic portrait photo of an angry woman, natural skin texture, neutral background",
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.7337927222251892,
+      "dino_face_similarity": 0.6274451613426208,
+      "privacy_score": 0.40219108443058293,
+      "target_emotion_score": 0.9999999844815445,
+      "combined_score": 0.6309859810104573
+    },
+    {
+      "image_file": "african.png",
+      "target_code": "african",
+      "target_prompt": "a realistic portrait photo of an angry african woman, natural skin texture, neutral background",
+      "source_prompt": "a realistic portrait photo of an angry woman, natural skin texture, neutral background",
+      "output_classifier_prediction": "happy",
+      "output_target_probability": 0.1201876625418663,
+      "dino_face_similarity": 0.521159291267395,
+      "privacy_score": 1.0,
+      "target_emotion_score": 0.047779707363025566,
+      "combined_score": 0.5610962183952133
+    },
+    {
+      "image_file": "middle_age.png",
+      "target_code": "middle_age",
+      "target_prompt": "a realistic portrait photo of an angry middle aged woman, natural skin texture, neutral background",
+      "source_prompt": "a realistic portrait photo of an angry woman, natural skin texture, neutral background",
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.452374130487442,
+      "dino_face_similarity": 0.6989516615867615,
+      "privacy_score": 5.624538002013679e-08,
+      "target_emotion_score": 0.5632817971362191,
+      "combined_score": 0.27421794384076975
+    },
+    {
+      "image_file": "old.png",
+      "target_code": "old",
+      "target_prompt": "a realistic portrait photo of an angry older woman, natural skin texture, neutral background",
+      "source_prompt": "a realistic portrait photo of an angry woman, natural skin texture, neutral background",
+      "output_classifier_prediction": "fear",
+      "output_target_probability": 0.32523730397224426,
+      "dino_face_similarity": 0.5540381073951721,
+      "privacy_score": 0.815071849149456,
+      "target_emotion_score": 0.36598507953948023,
+      "combined_score": 0.5447521994912543
+    },
+    {
+      "image_file": "short_black.png",
+      "target_code": "short_black",
+      "target_prompt": "a realistic portrait photo of an angry woman with short black hair, natural skin texture, neutral background",
+      "source_prompt": "a realistic portrait photo of an angry woman, natural skin texture, neutral background",
+      "output_classifier_prediction": "fear",
+      "output_target_probability": 0.08939870446920395,
+      "dino_face_similarity": 0.5888285636901855,
+      "privacy_score": 0.619391605527543,
+      "target_emotion_score": 0.0,
+      "combined_score": 0.28091469579677814
+    },
+    {
+      "image_file": "blonde.png",
+      "target_code": "blonde",
+      "target_prompt": "a realistic portrait photo of an angry blonde woman, natural skin texture, neutral background",
+      "source_prompt": "a realistic portrait photo of an angry woman, natural skin texture, neutral background",
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.5650061368942261,
+      "dino_face_similarity": 0.6131993532180786,
+      "privacy_score": 0.48231717363053994,
+      "target_emotion_score": 0.7380692742936499,
+      "combined_score": 0.5706865878984069
+    },
+    {
+      "image_file": "glasses.png",
+      "target_code": "glasses",
+      "target_prompt": "a realistic portrait photo of an angry woman wearing glasses, natural skin texture, neutral background",
+      "source_prompt": "a realistic portrait photo of an angry woman, natural skin texture, neutral background",
+      "output_classifier_prediction": "happy",
+      "output_target_probability": 0.18756383657455444,
+      "dino_face_similarity": 0.680743932723999,
+      "privacy_score": 0.10241011920789911,
+      "target_emotion_score": 0.15233712274956557,
+      "combined_score": 0.21463625755370053
+    }
+  ]
+}
