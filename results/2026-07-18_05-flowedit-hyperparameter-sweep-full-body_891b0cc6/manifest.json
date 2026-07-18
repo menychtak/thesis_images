@@ -1,6 +1,6 @@
 {
   "run_id": "2026-07-18_05-flowedit-hyperparameter-sweep-full-body_891b0cc6",
-  "generated_at_utc": "2026-07-18T13:52:19.982562+00:00",
+  "generated_at_utc": "2026-07-18T14:30:13.066147+00:00",
   "notebook": "Notebooks/current/05_flowedit_hyperparameter_sweep_full_body.ipynb",
   "source_image": {
     "file": "source_original.jpg",
@@ -177,10 +177,10 @@
       "n_max": 28,
       "output_classifier_prediction": "angry",
       "output_target_probability": 0.9687908887863159,
-      "insightface_similarity": 0.28855887055397034,
-      "privacy_score": 0.578140858536319,
+      "insightface_similarity": 0.2885589003562927,
+      "privacy_score": 0.5781408729675219,
       "target_emotion_score": 0.846319836080656,
-      "combined_score": 0.7408200494475321
+      "combined_score": 0.7408200559415734
     },
     {
       "image_file": "hp_1.png",
@@ -192,10 +192,10 @@
       "n_max": 33,
       "output_classifier_prediction": "angry",
       "output_target_probability": 0.9853501617908478,
-      "insightface_similarity": 0.20125046372413635,
-      "privacy_score": 0.8133096388657467,
+      "insightface_similarity": 0.20125055313110352,
+      "privacy_score": 0.8133095965777429,
       "target_emotion_score": 0.9743309750382846,
-      "combined_score": 0.904286375111002
+      "combined_score": 0.9042863560814003
     },
     {
       "image_file": "hp_2.png",
@@ -207,10 +207,10 @@
       "n_max": 28,
       "output_classifier_prediction": "angry",
       "output_target_probability": 0.926525741815567,
-      "insightface_similarity": 0.19918248057365417,
-      "privacy_score": 0.8188798364320424,
+      "insightface_similarity": 0.19918256998062134,
+      "privacy_score": 0.8188797966033142,
       "target_emotion_score": 0.5195899367392756,
-      "combined_score": 0.6933994659020863
+      "combined_score": 0.6933994479791586
     },
     {
       "image_file": "hp_3.png",
@@ -222,7 +222,7 @@
       "n_max": 33,
       "output_classifier_prediction": "angry",
       "output_target_probability": 0.9886706471443176,
-      "insightface_similarity": 0.1319400817155838,
+      "insightface_similarity": 0.13194018602371216,
       "privacy_score": 1.0,
       "target_emotion_score": 0.9999999226951939,
       "combined_score": 0.9997175583287605
@@ -238,9 +238,9 @@
       "output_classifier_prediction": "angry",
       "output_target_probability": 0.9458028972148895,
       "insightface_similarity": 0.17480289936065674,
-      "privacy_score": 0.8845472399156177,
+      "privacy_score": 0.884547469900886,
       "target_emotion_score": 0.6686116128632895,
-      "combined_score": 0.7953146500183901
+      "combined_score": 0.7953147535117608
     },
     {
       "image_file": "hp_5.png",
@@ -253,9 +253,9 @@
       "output_classifier_prediction": "angry",
       "output_target_probability": 0.987375408411026,
       "insightface_similarity": 0.1567615270614624,
-      "privacy_score": 0.9331424173232171,
+      "privacy_score": 0.933142668763547,
       "target_emotion_score": 0.9899871047758734,
-      "combined_score": 0.9651453605122386
+      "combined_score": 0.965145473660387
     },
     {
       "image_file": "hp_6.png",
@@ -268,9 +268,9 @@
       "output_classifier_prediction": "angry",
       "output_target_probability": 0.9550979733467102,
       "insightface_similarity": 0.342075377702713,
-      "privacy_score": 0.43399194813196185,
+      "privacy_score": 0.43399197919437327,
       "target_emotion_score": 0.7404670187139325,
-      "combined_score": 0.6253559376666596
+      "combined_score": 0.6253559516447448
     },
     {
       "image_file": "hp_7.png",
@@ -282,10 +282,10 @@
       "n_max": 33,
       "output_classifier_prediction": "angry",
       "output_target_probability": 0.979122668504715,
-      "insightface_similarity": 0.2819220721721649,
-      "privacy_score": 0.5960173476100856,
+      "insightface_similarity": 0.28192219138145447,
+      "privacy_score": 0.5960171291124202,
       "target_emotion_score": 0.9261894589106939,
-      "combined_score": 0.7849930181588302
+      "combined_score": 0.7849929198348807
     },
     {
       "image_file": "hp_8.png",
@@ -297,10 +297,10 @@
       "n_max": 28,
       "output_classifier_prediction": "angry",
       "output_target_probability": 0.981463223695755,
-      "insightface_similarity": 0.209431454539299,
-      "privacy_score": 0.7912738040390066,
+      "insightface_similarity": 0.2094314694404602,
+      "privacy_score": 0.7912739527065874,
       "target_emotion_score": 0.9442830754430277,
-      "combined_score": 0.8809857389904262
+      "combined_score": 0.8809858058908375
     },
     {
       "image_file": "hp_9.png",
@@ -312,10 +312,10 @@
       "n_max": 33,
       "output_classifier_prediction": "angry",
       "output_target_probability": 0.9832922518253326,
-      "insightface_similarity": 0.1884213089942932,
-      "privacy_score": 0.847865494138137,
+      "insightface_similarity": 0.1884213387966156,
+      "privacy_score": 0.8478656276543801,
       "target_emotion_score": 0.9584223419427526,
-      "combined_score": 0.912720326354642
+      "combined_score": 0.9127203864369514
     },
     {
       "image_file": "hp_10.png",
@@ -328,9 +328,9 @@
       "output_classifier_prediction": "angry",
       "output_target_probability": 0.9795792400836945,
       "insightface_similarity": 0.22648558020591736,
-      "privacy_score": 0.7453378159912557,
+      "privacy_score": 0.7453379845147305,
       "target_emotion_score": 0.9297189766512888,
-      "combined_score": 0.8537556291375493
+      "combined_score": 0.8537557049731129
     },
     {
       "image_file": "hp_11.png",
@@ -342,10 +342,10 @@
       "n_max": 33,
       "output_classifier_prediction": "angry",
       "output_target_probability": 0.9839043915271759,
-      "insightface_similarity": 0.1873985230922699,
-      "privacy_score": 0.8506204099801562,
+      "insightface_similarity": 0.18739855289459229,
+      "privacy_score": 0.8506205447127111,
       "target_emotion_score": 0.9631544760414351,
-      "combined_score": 0.9160533361949622
+      "combined_score": 0.916053396824612
     },
     {
       "image_file": "hp_12.png",
@@ -357,10 +357,10 @@
       "n_max": 28,
       "output_classifier_prediction": "angry",
       "output_target_probability": 0.9663034081459045,
-      "insightface_similarity": 0.5031985640525818,
-      "privacy_score": 2.6935410790684955e-08,
+      "insightface_similarity": 0.503198504447937,
+      "privacy_score": 2.693542267007132e-08,
       "target_emotion_score": 0.8270904152101283,
-      "combined_score": 0.4716404750909283
+      "combined_score": 0.47164047509093365
     },
     {
       "image_file": "hp_13.png",
@@ -373,9 +373,9 @@
       "output_classifier_prediction": "angry",
       "output_target_probability": 0.8593125939369202,
       "insightface_similarity": 0.37559786438941956,
-      "privacy_score": 0.34369775317445606,
+      "privacy_score": 0.3436977443714403,
       "target_emotion_score": 0.0,
-      "combined_score": 0.15466398892850522
+      "combined_score": 0.15466398496714814
     },
     {
       "image_file": "hp_14.png",
@@ -387,10 +387,10 @@
       "n_max": 28,
       "output_classifier_prediction": "angry",
       "output_target_probability": 0.9284414350986481,
-      "insightface_similarity": 0.37467384338378906,
-      "privacy_score": 0.34618664171088787,
+      "insightface_similarity": 0.37467390298843384,
+      "privacy_score": 0.34618647345910114,
       "target_emotion_score": 0.5343991665281419,
-      "combined_score": 0.4823405549043887
+      "combined_score": 0.4823404791910847
     },
     {
       "image_file": "hp_15.png",
@@ -402,10 +402,10 @@
       "n_max": 33,
       "output_classifier_prediction": "angry",
       "output_target_probability": 0.9455696046352386,
-      "insightface_similarity": 0.2606812119483948,
-      "privacy_score": 0.653230477173973,
+      "insightface_similarity": 0.26068124175071716,
+      "privacy_score": 0.6532305247576917,
       "target_emotion_score": 0.6668081490987088,
-      "combined_score": 0.687147771192525
+      "combined_score": 0.6871477926051984
     },
     {
       "image_file": "hp_16.png",
@@ -417,10 +417,10 @@
       "n_max": 28,
       "output_classifier_prediction": "angry",
       "output_target_probability": 0.9583636224269867,
-      "insightface_similarity": 0.31648632884025574,
-      "privacy_score": 0.5029171024129571,
+      "insightface_similarity": 0.3164864480495453,
+      "privacy_score": 0.5029168428109763,
       "target_emotion_score": 0.7657120556239296,
-      "combined_score": 0.6687480131383865
+      "combined_score": 0.6687478963174952
     },
     {
       "image_file": "hp_17.png",
@@ -433,9 +433,9 @@
       "output_classifier_prediction": "angry",
       "output_target_probability": 0.9830009341239929,
       "insightface_similarity": 0.18072693049907684,
-      "privacy_score": 0.8685906186916033,
+      "privacy_score": 0.8685908416319279,
       "target_emotion_score": 0.9561703160997816,
-      "combined_score": 0.9210991408507482
+      "combined_score": 0.9210992411738942
     }
   ]
 }
