@@ -1,7 +1,7 @@
 # 2026-07-18_flowedit-prompt-sweep-full-body_afb193b5
 
 Source notebook: `Notebooks/current/04_flowedit_prompt_sweep_full_body.ipynb`
-Generated: 2026-07-18T10:45:57.493005+00:00
+Generated: 2026-07-18T10:50:53.905356+00:00
 
 FlowEdit (FlowEditSD3) prompt sweep over
 8 target prompts on one full-body reference
