@@ -1,0 +1,441 @@
+{
+  "run_id": "2026-07-18_05-flowedit-hyperparameter-sweep-full-body_891b0cc6",
+  "generated_at_utc": "2026-07-18T13:52:19.982562+00:00",
+  "notebook": "Notebooks/current/05_flowedit_hyperparameter_sweep_full_body.ipynb",
+  "source_image": {
+    "file": "source_original.jpg",
+    "sha256": "53b504a160f2b23885dd2540c96529c2cb65cc36bc022d34f322e3ccfa40e142",
+    "dataset_split": "single_reference_image"
+  },
+  "method": {
+    "sampler_type": "FlowEditSD3",
+    "model_type": "SD3",
+    "model_id": "stabilityai/stable-diffusion-3.5-medium",
+    "model_revision": "b940f670f0eda2d07fbb75229e779da1ad11eb80",
+    "seed": 42,
+    "source_prompt": "a realistic portrait photo of an angry woman, natural skin texture, neutral background",
+    "target_prompt": "a realistic portrait photo of an angry caucasian woman, natural skin texture, neutral background",
+    "best_prompt_code": "caucasian",
+    "hyperparameter_grid": [
+      {
+        "T_steps": 40,
+        "tar_guidance_scale": 10.0,
+        "n_min": 0,
+        "n_max": 28
+      },
+      {
+        "T_steps": 40,
+        "tar_guidance_scale": 10.0,
+        "n_min": 0,
+        "n_max": 33
+      },
+      {
+        "T_steps": 40,
+        "tar_guidance_scale": 13.5,
+        "n_min": 0,
+        "n_max": 28
+      },
+      {
+        "T_steps": 40,
+        "tar_guidance_scale": 13.5,
+        "n_min": 0,
+        "n_max": 33
+      },
+      {
+        "T_steps": 40,
+        "tar_guidance_scale": 16.0,
+        "n_min": 0,
+        "n_max": 28
+      },
+      {
+        "T_steps": 40,
+        "tar_guidance_scale": 16.0,
+        "n_min": 0,
+        "n_max": 33
+      },
+      {
+        "T_steps": 50,
+        "tar_guidance_scale": 10.0,
+        "n_min": 0,
+        "n_max": 28
+      },
+      {
+        "T_steps": 50,
+        "tar_guidance_scale": 10.0,
+        "n_min": 0,
+        "n_max": 33
+      },
+      {
+        "T_steps": 50,
+        "tar_guidance_scale": 13.5,
+        "n_min": 0,
+        "n_max": 28
+      },
+      {
+        "T_steps": 50,
+        "tar_guidance_scale": 13.5,
+        "n_min": 0,
+        "n_max": 33
+      },
+      {
+        "T_steps": 50,
+        "tar_guidance_scale": 16.0,
+        "n_min": 0,
+        "n_max": 28
+      },
+      {
+        "T_steps": 50,
+        "tar_guidance_scale": 16.0,
+        "n_min": 0,
+        "n_max": 33
+      },
+      {
+        "T_steps": 60,
+        "tar_guidance_scale": 10.0,
+        "n_min": 0,
+        "n_max": 28
+      },
+      {
+        "T_steps": 60,
+        "tar_guidance_scale": 10.0,
+        "n_min": 0,
+        "n_max": 33
+      },
+      {
+        "T_steps": 60,
+        "tar_guidance_scale": 13.5,
+        "n_min": 0,
+        "n_max": 28
+      },
+      {
+        "T_steps": 60,
+        "tar_guidance_scale": 13.5,
+        "n_min": 0,
+        "n_max": 33
+      },
+      {
+        "T_steps": 60,
+        "tar_guidance_scale": 16.0,
+        "n_min": 0,
+        "n_max": 28
+      },
+      {
+        "T_steps": 60,
+        "tar_guidance_scale": 16.0,
+        "n_min": 0,
+        "n_max": 33
+      }
+    ],
+    "T_STEPS_LIST": [
+      40,
+      50,
+      60
+    ],
+    "TAR_GUIDANCE_LIST": [
+      10.0,
+      13.5,
+      16.0
+    ],
+    "N_MAX_LIST": [
+      28,
+      33
+    ],
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  "metrics": {
+    "emotion_model_ids": [
+      "trpakov/vit-face-expression",
+      "mo-thecreator/vit-Facial-Expression-Recognition"
+    ],
+    "emotion_model_revisions": {
+      "trpakov/vit-face-expression": "ef0bc6fc34241b6587e7e009e7711357be28c024",
+      "mo-thecreator/vit-Facial-Expression-Recognition": "5aae4f09e1da247eb0f1c1e6f53271601fcafe09"
+    },
+    "emotion_ensemble_method": "arithmetic mean of two normalized classifier target-emotion probabilities",
+    "identity_model_name": "buffalo_l",
+    "identity_method": "InsightFace (ArcFace) cosine similarity",
+    "privacy_score_definition": "min-max normalized (1 - InsightFace cosine similarity)",
+    "identity_similarity_calibration_note": "InsightFace/ArcFace similarity is not a calibrated re-identification threshold; no accept/reject calibration has been performed."
+  },
+  "status": "success",
+  "code_config_sha256": "891b0cc6",
+  "selected_experiment_ids": {
+    "best_overall": 3,
+    "best_privacy": 3,
+    "best_emotion_utility": 3,
+    "best_balanced_alternative": 5
+  },
+  "images": [
+    {
+      "image_file": "hp_0.png",
+      "experiment_id": 0,
+      "output_path": "/content/FlowEdit/outputs/FlowEdit_HP_0/SD3/src_angry/tar_0/output_T_steps_40_n_avg_1_cfg_enc_3.5_cfg_dec10.0_n_min_0_n_max_28_seed42.png",
+      "T_steps": 40,
+      "tar_guidance_scale": 10.0,
+      "n_min": 0,
+      "n_max": 28,
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.9687908887863159,
+      "insightface_similarity": 0.28855887055397034,
+      "privacy_score": 0.578140858536319,
+      "target_emotion_score": 0.846319836080656,
+      "combined_score": 0.7408200494475321
+    },
+    {
+      "image_file": "hp_1.png",
+      "experiment_id": 1,
+      "output_path": "/content/FlowEdit/outputs/FlowEdit_HP_1/SD3/src_angry/tar_0/output_T_steps_40_n_avg_1_cfg_enc_3.5_cfg_dec10.0_n_min_0_n_max_33_seed42.png",
+      "T_steps": 40,
+      "tar_guidance_scale": 10.0,
+      "n_min": 0,
+      "n_max": 33,
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.9853501617908478,
+      "insightface_similarity": 0.20125046372413635,
+      "privacy_score": 0.8133096388657467,
+      "target_emotion_score": 0.9743309750382846,
+      "combined_score": 0.904286375111002
+    },
+    {
+      "image_file": "hp_2.png",
+      "experiment_id": 2,
+      "output_path": "/content/FlowEdit/outputs/FlowEdit_HP_2/SD3/src_angry/tar_0/output_T_steps_40_n_avg_1_cfg_enc_3.5_cfg_dec13.5_n_min_0_n_max_28_seed42.png",
+      "T_steps": 40,
+      "tar_guidance_scale": 13.5,
+      "n_min": 0,
+      "n_max": 28,
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.926525741815567,
+      "insightface_similarity": 0.19918248057365417,
+      "privacy_score": 0.8188798364320424,
+      "target_emotion_score": 0.5195899367392756,
+      "combined_score": 0.6933994659020863
+    },
+    {
+      "image_file": "hp_3.png",
+      "experiment_id": 3,
+      "output_path": "/content/FlowEdit/outputs/FlowEdit_HP_3/SD3/src_angry/tar_0/output_T_steps_40_n_avg_1_cfg_enc_3.5_cfg_dec13.5_n_min_0_n_max_33_seed42.png",
+      "T_steps": 40,
+      "tar_guidance_scale": 13.5,
+      "n_min": 0,
+      "n_max": 33,
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.9886706471443176,
+      "insightface_similarity": 0.1319400817155838,
+      "privacy_score": 1.0,
+      "target_emotion_score": 0.9999999226951939,
+      "combined_score": 0.9997175583287605
+    },
+    {
+      "image_file": "hp_4.png",
+      "experiment_id": 4,
+      "output_path": "/content/FlowEdit/outputs/FlowEdit_HP_4/SD3/src_angry/tar_0/output_T_steps_40_n_avg_1_cfg_enc_3.5_cfg_dec16.0_n_min_0_n_max_28_seed42.png",
+      "T_steps": 40,
+      "tar_guidance_scale": 16.0,
+      "n_min": 0,
+      "n_max": 28,
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.9458028972148895,
+      "insightface_similarity": 0.17480289936065674,
+      "privacy_score": 0.8845472399156177,
+      "target_emotion_score": 0.6686116128632895,
+      "combined_score": 0.7953146500183901
+    },
+    {
+      "image_file": "hp_5.png",
+      "experiment_id": 5,
+      "output_path": "/content/FlowEdit/outputs/FlowEdit_HP_5/SD3/src_angry/tar_0/output_T_steps_40_n_avg_1_cfg_enc_3.5_cfg_dec16.0_n_min_0_n_max_33_seed42.png",
+      "T_steps": 40,
+      "tar_guidance_scale": 16.0,
+      "n_min": 0,
+      "n_max": 33,
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.987375408411026,
+      "insightface_similarity": 0.1567615270614624,
+      "privacy_score": 0.9331424173232171,
+      "target_emotion_score": 0.9899871047758734,
+      "combined_score": 0.9651453605122386
+    },
+    {
+      "image_file": "hp_6.png",
+      "experiment_id": 6,
+      "output_path": "/content/FlowEdit/outputs/FlowEdit_HP_6/SD3/src_angry/tar_0/output_T_steps_50_n_avg_1_cfg_enc_3.5_cfg_dec10.0_n_min_0_n_max_28_seed42.png",
+      "T_steps": 50,
+      "tar_guidance_scale": 10.0,
+      "n_min": 0,
+      "n_max": 28,
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.9550979733467102,
+      "insightface_similarity": 0.342075377702713,
+      "privacy_score": 0.43399194813196185,
+      "target_emotion_score": 0.7404670187139325,
+      "combined_score": 0.6253559376666596
+    },
+    {
+      "image_file": "hp_7.png",
+      "experiment_id": 7,
+      "output_path": "/content/FlowEdit/outputs/FlowEdit_HP_7/SD3/src_angry/tar_0/output_T_steps_50_n_avg_1_cfg_enc_3.5_cfg_dec10.0_n_min_0_n_max_33_seed42.png",
+      "T_steps": 50,
+      "tar_guidance_scale": 10.0,
+      "n_min": 0,
+      "n_max": 33,
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.979122668504715,
+      "insightface_similarity": 0.2819220721721649,
+      "privacy_score": 0.5960173476100856,
+      "target_emotion_score": 0.9261894589106939,
+      "combined_score": 0.7849930181588302
+    },
+    {
+      "image_file": "hp_8.png",
+      "experiment_id": 8,
+      "output_path": "/content/FlowEdit/outputs/FlowEdit_HP_8/SD3/src_angry/tar_0/output_T_steps_50_n_avg_1_cfg_enc_3.5_cfg_dec13.5_n_min_0_n_max_28_seed42.png",
+      "T_steps": 50,
+      "tar_guidance_scale": 13.5,
+      "n_min": 0,
+      "n_max": 28,
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.981463223695755,
+      "insightface_similarity": 0.209431454539299,
+      "privacy_score": 0.7912738040390066,
+      "target_emotion_score": 0.9442830754430277,
+      "combined_score": 0.8809857389904262
+    },
+    {
+      "image_file": "hp_9.png",
+      "experiment_id": 9,
+      "output_path": "/content/FlowEdit/outputs/FlowEdit_HP_9/SD3/src_angry/tar_0/output_T_steps_50_n_avg_1_cfg_enc_3.5_cfg_dec13.5_n_min_0_n_max_33_seed42.png",
+      "T_steps": 50,
+      "tar_guidance_scale": 13.5,
+      "n_min": 0,
+      "n_max": 33,
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.9832922518253326,
+      "insightface_similarity": 0.1884213089942932,
+      "privacy_score": 0.847865494138137,
+      "target_emotion_score": 0.9584223419427526,
+      "combined_score": 0.912720326354642
+    },
+    {
+      "image_file": "hp_10.png",
+      "experiment_id": 10,
+      "output_path": "/content/FlowEdit/outputs/FlowEdit_HP_10/SD3/src_angry/tar_0/output_T_steps_50_n_avg_1_cfg_enc_3.5_cfg_dec16.0_n_min_0_n_max_28_seed42.png",
+      "T_steps": 50,
+      "tar_guidance_scale": 16.0,
+      "n_min": 0,
+      "n_max": 28,
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.9795792400836945,
+      "insightface_similarity": 0.22648558020591736,
+      "privacy_score": 0.7453378159912557,
+      "target_emotion_score": 0.9297189766512888,
+      "combined_score": 0.8537556291375493
+    },
+    {
+      "image_file": "hp_11.png",
+      "experiment_id": 11,
+      "output_path": "/content/FlowEdit/outputs/FlowEdit_HP_11/SD3/src_angry/tar_0/output_T_steps_50_n_avg_1_cfg_enc_3.5_cfg_dec16.0_n_min_0_n_max_33_seed42.png",
+      "T_steps": 50,
+      "tar_guidance_scale": 16.0,
+      "n_min": 0,
+      "n_max": 33,
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.9839043915271759,
+      "insightface_similarity": 0.1873985230922699,
+      "privacy_score": 0.8506204099801562,
+      "target_emotion_score": 0.9631544760414351,
+      "combined_score": 0.9160533361949622
+    },
+    {
+      "image_file": "hp_12.png",
+      "experiment_id": 12,
+      "output_path": "/content/FlowEdit/outputs/FlowEdit_HP_12/SD3/src_angry/tar_0/output_T_steps_60_n_avg_1_cfg_enc_3.5_cfg_dec10.0_n_min_0_n_max_28_seed42.png",
+      "T_steps": 60,
+      "tar_guidance_scale": 10.0,
+      "n_min": 0,
+      "n_max": 28,
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.9663034081459045,
+      "insightface_similarity": 0.5031985640525818,
+      "privacy_score": 2.6935410790684955e-08,
+      "target_emotion_score": 0.8270904152101283,
+      "combined_score": 0.4716404750909283
+    },
+    {
+      "image_file": "hp_13.png",
+      "experiment_id": 13,
+      "output_path": "/content/FlowEdit/outputs/FlowEdit_HP_13/SD3/src_angry/tar_0/output_T_steps_60_n_avg_1_cfg_enc_3.5_cfg_dec10.0_n_min_0_n_max_33_seed42.png",
+      "T_steps": 60,
+      "tar_guidance_scale": 10.0,
+      "n_min": 0,
+      "n_max": 33,
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.8593125939369202,
+      "insightface_similarity": 0.37559786438941956,
+      "privacy_score": 0.34369775317445606,
+      "target_emotion_score": 0.0,
+      "combined_score": 0.15466398892850522
+    },
+    {
+      "image_file": "hp_14.png",
+      "experiment_id": 14,
+      "output_path": "/content/FlowEdit/outputs/FlowEdit_HP_14/SD3/src_angry/tar_0/output_T_steps_60_n_avg_1_cfg_enc_3.5_cfg_dec13.5_n_min_0_n_max_28_seed42.png",
+      "T_steps": 60,
+      "tar_guidance_scale": 13.5,
+      "n_min": 0,
+      "n_max": 28,
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.9284414350986481,
+      "insightface_similarity": 0.37467384338378906,
+      "privacy_score": 0.34618664171088787,
+      "target_emotion_score": 0.5343991665281419,
+      "combined_score": 0.4823405549043887
+    },
+    {
+      "image_file": "hp_15.png",
+      "experiment_id": 15,
+      "output_path": "/content/FlowEdit/outputs/FlowEdit_HP_15/SD3/src_angry/tar_0/output_T_steps_60_n_avg_1_cfg_enc_3.5_cfg_dec13.5_n_min_0_n_max_33_seed42.png",
+      "T_steps": 60,
+      "tar_guidance_scale": 13.5,
+      "n_min": 0,
+      "n_max": 33,
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.9455696046352386,
+      "insightface_similarity": 0.2606812119483948,
+      "privacy_score": 0.653230477173973,
+      "target_emotion_score": 0.6668081490987088,
+      "combined_score": 0.687147771192525
+    },
+    {
+      "image_file": "hp_16.png",
+      "experiment_id": 16,
+      "output_path": "/content/FlowEdit/outputs/FlowEdit_HP_16/SD3/src_angry/tar_0/output_T_steps_60_n_avg_1_cfg_enc_3.5_cfg_dec16.0_n_min_0_n_max_28_seed42.png",
+      "T_steps": 60,
+      "tar_guidance_scale": 16.0,
+      "n_min": 0,
+      "n_max": 28,
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.9583636224269867,
+      "insightface_similarity": 0.31648632884025574,
+      "privacy_score": 0.5029171024129571,
+      "target_emotion_score": 0.7657120556239296,
+      "combined_score": 0.6687480131383865
+    },
+    {
+      "image_file": "hp_17.png",
+      "experiment_id": 17,
+      "output_path": "/content/FlowEdit/outputs/FlowEdit_HP_17/SD3/src_angry/tar_0/output_T_steps_60_n_avg_1_cfg_enc_3.5_cfg_dec16.0_n_min_0_n_max_33_seed42.png",
+      "T_steps": 60,
+      "tar_guidance_scale": 16.0,
+      "n_min": 0,
+      "n_max": 33,
+      "output_classifier_prediction": "angry",
+      "output_target_probability": 0.9830009341239929,
+      "insightface_similarity": 0.18072693049907684,
+      "privacy_score": 0.8685906186916033,
+      "target_emotion_score": 0.9561703160997816,
+      "combined_score": 0.9210991408507482
+    }
+  ]
+}
