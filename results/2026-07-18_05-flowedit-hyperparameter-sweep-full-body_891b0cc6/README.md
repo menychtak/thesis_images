@@ -1,7 +1,7 @@
 # 2026-07-18_05-flowedit-hyperparameter-sweep-full-body_891b0cc6
 
 Source notebook: `Notebooks/current/05_flowedit_hyperparameter_sweep_full_body.ipynb`
-Generated: 2026-07-18T14:30:13.066147+00:00
+Generated: 2026-07-18T14:36:51.937458+00:00
 
 FlowEdit (FlowEditSD3) hyperparameter sweep over
 18 configurations (`T_steps`, target guidance
