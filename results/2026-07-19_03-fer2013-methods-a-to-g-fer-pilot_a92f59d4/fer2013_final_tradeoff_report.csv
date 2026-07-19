@@ -1,0 +1,8 @@
+method,n_samples,emotion_accuracy,emotion_macro_f1,mean_identity_similarity,reid_match_rate,utility_rank,privacy_rank
+A_BBox_Generic,16,0.25,0.119,0.4278,,6.0,
+B_Segmentation_Generic,16,0.25,0.1154,0.4812,,7.0,
+C_Segmentation_Prompt,16,0.5,0.3873,0.5389,,4.0,
+D_SelectiveSegmentation_Prompt,16,0.4375,0.3619,0.5761,,5.0,
+E_EmotionAware_Selection,16,0.5,0.4302,0.6109,,2.0,
+F_EmotionAware_PrivacyConstrained,16,0.5625,0.4717,0.5458,,1.0,
+G_EditFriendly_DDPM_Inversion_Main,16,0.4375,0.4075,0.5027,,3.0,

@@ -1,0 +1,42 @@
+{
+  "run_id": "2026-07-19_03-fer2013-methods-a-to-g-fer-pilot_a92f59d4",
+  "generated_at_utc": "2026-07-19T11:27:00.783855+00:00",
+  "notebook": "Notebooks/current/03_fer2013_methods_a_to_g_fer_pilot.ipynb",
+  "status": "partial_pilot_interrupted",
+  "pilot_scope": {
+    "prepared_candidate_pool": 16,
+    "completed_source_images": 16,
+    "successful_method_rows": 112,
+    "errored_rows": 0,
+    "methods": [
+      "A_BBox_Generic",
+      "B_Segmentation_Generic",
+      "C_Segmentation_Prompt",
+      "D_SelectiveSegmentation_Prompt",
+      "E_EmotionAware_Selection",
+      "F_EmotionAware_PrivacyConstrained",
+      "G_EditFriendly_DDPM_Inversion_Main"
+    ]
+  },
+  "method": {
+    "base_model_id": "runwayml/stable-diffusion-v1-5",
+    "inpaint_model_id": "runwayml/stable-diffusion-inpainting",
+    "emotion_model_id": "trpakov/vit-face-expression",
+    "seed": 42,
+    "gen_cfg": {
+      "strength": 0.85,
+      "num_inference_steps": 50,
+      "guidance_scale": 5.0,
+      "cfg_src": 1.0,
+      "cfg_tar": 3.5,
+      "eta": 1,
+      "skip": 27
+    }
+  },
+  "metrics": {
+    "identity_model": "DINOv2 (facebook/dinov2-small) face-crop cosine similarity",
+    "identity_method_note": "Temporary visual-similarity proxy from the FER-2013 pilot stage, not a calibrated biometric recognizer. Current FlowEdit notebooks use InsightFace (ArcFace) instead; this pilot notebook is not migrated to InsightFace.",
+    "emotion_model_id": "trpakov/vit-face-expression"
+  },
+  "code_config_sha256": "a92f59d4"
+}
